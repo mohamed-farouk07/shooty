@@ -1,0 +1,84 @@
+.side_menu {
+  background-color: #f1f5f8;
+  padding: 20px;
+  height: 100vh;
+  border-inline-end: 1px solid rgb(211, 211, 211);
+  overflow: hidden;
+  transition: width 0.2s;
+  width: 70px;
+}
+
+.side_menu_header {
+  text-align: start;
+}
+
+.side_menu_header .logo {
+  margin-bottom: 20px;
+  margin-inline-start: -10px;
+}
+
+.workspace_title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #6f7681;
+}
+.workspace {
+  margin-top: 8px;
+  padding: 8px;
+
+  border: 1px solid #d3d5da;
+  border-radius: 5px;
+}
+
+.workspace_avatar {
+  padding: 5px 10px 5px 10px;
+  border-radius: 50%;
+  margin-inline-end: 5px;
+  background-color: #80d0ee;
+  color: white;
+}
+
+.side_menu_body {
+  margin-top: 20px;
+  text-align: start;
+}
+
+.side_menu_body_item {
+  color: #6f7681;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 25px;
+}
+
+.side_menu_body_item_icon {
+  width: 25px;
+  height: 25px;
+  margin-inline-end: 10px;
+}
+
+.side_menu_body_item_text {
+  display: inline-block;
+  max-lines: 1;
+  font-weight: 500;
+  padding-top: 3px;
+  vertical-align: top;
+}
+
+.side_menu_body_item_text_collapsed {
+  display: none;
+}
+
+.side_menu_body_item:hover {
+  color: #635adf;
+}
+
+.expand_button {
+  margin-inline-end: 10px;
+  text-align: end;
+  color: #6f7681;
+  display: block;
+}
+
+.expand_button:hover {
+  color: #635adf;
+}

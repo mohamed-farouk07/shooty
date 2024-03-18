@@ -1,0 +1,27 @@
+.appbar {
+  background-color: white;
+  border-bottom: 1px solid rgb(211, 211, 211);
+  padding: 10px;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+}
+
+.user-avatar {
+  padding: 5px;
+  border-radius: 50%;
+  width: 35px;
+  text-align: center;
+  display: inline;
+  margin-inline-end: 5px;
+  background-color: #80d0ee;
+  color: white;
+}
+
+.vr {
+  padding-left: 2px;
+  height: 30px;
+  background-color: grey;
+  margin-inline: 20px;
+  display: inline;
+}

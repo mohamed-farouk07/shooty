@@ -1,0 +1,27 @@
+.body {
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.item .subtitle {
+  display: inline;
+  font-size: 14px;
+  margin-inline-end: 5px;
+}
+.row-container {
+  position: relative;
+}
+
+.remove-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  visibility: hidden;
+  color: lightgray;
+  background-color: white;
+  border: none;
+  font-size: 24px;
+}
+.row-container:hover .remove-button {
+  visibility: visible;
+}
